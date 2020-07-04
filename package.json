@@ -1,0 +1,35 @@
+{
+  "name": "intime-front-end",
+  "version": "1.0.0",
+  "description": "front-end of free gantt chart",
+  "main": "index.html",
+  "scripts": {
+    "dev": "NODE_ENV=dev parcel index.html",
+    "mock": "NODE_ENV=dev node ./mock/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daiti0113/inTime-front-end.git"
+  },
+  "author": "daiti0113",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daiti0113/inTime-front-end/issues"
+  },
+  "homepage": "https://github.com/daiti0113/inTime-front-end#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@types/react": "^16.9.41",
+    "@welldone-software/why-did-you-render": "^4.2.5",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "react-router-dom": "^5.2.0",
+    "typeface-roboto": "0.0.75"
+  },
+  "devDependencies": {
+    "babel-preset-react-app": "^9.1.2"
+  }
+}
