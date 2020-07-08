@@ -10,7 +10,7 @@ module.exports = {
         "react/jsx-indent-props": ["error", 4],
         "react/prop-types": [0],
         "jsx-quotes": ["warn", "prefer-double"],
-        "indent": ["error", 4],
+        "indent": ["error", 4, {"SwitchCase": 1}],
         "quotes": ["warn","double"],
         "max-lines-per-function": ["error", 20],
         "max-statements": ["error", 15],
